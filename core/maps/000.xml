@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Map version="1.0.0" name="Test" width="3" height="3">
+    <Objects type="characters">
+        <Object name="alien" x="0" y="0" movement="directions-4" rotation="180" playable="true"/>
+        <Object name="crab" x="0" y="2" movement="horizontal" actionType="decrement" times="1" variable="lives" animated="true"/>
+    </Objects>  
+    
+    <Objects type="items">
+        <Object name="coin" x="2" y="0" actionType="increment" times="1" variable="points" animated="true"/>
+    </Objects>
+    
+    <Objects type="obstacles">
+        <Object name="palm" x="1" y="1"/>
+    </Objects>
+    
+    <Objects type="surfaces">
+        <Object name="grass" x="0" y="1"/>
+        <Object name="grass" x="1" y="1"/>
+        <Object name="grass" x="2" y="1"/>
+        <Object name="grass" x="0" y="2"/>
+        <Object name="grass" x="1" y="2"/>
+        <Object name="grass" x="2" y="2"/>
+    </Objects>
+    
+    <Objects type="surfaces/transitions/grass_sand">
+        <Object name="grass_to_sand_smaller" x="0" y="0" rotation="270" mirrored="true"/>
+        <Object name="grass_to_sand_small" x="1" y="0" rotation="270"/>
+        <Object name="grass_to_sand_smaller" x="2" y="0" rotation="90"/>
+    </Objects>
+</Map>

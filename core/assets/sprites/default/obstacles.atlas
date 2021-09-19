@@ -1,0 +1,20 @@
+
+obstacles.png
+size: 256,128
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+wall_hard
+  rotate: false
+  xy: 1, 1
+  size: 102, 102
+  orig: 102, 102
+  offset: 0, 0
+  index: -1
+wall_soft
+  rotate: false
+  xy: 105, 1
+  size: 102, 102
+  orig: 102, 102
+  offset: 0, 0
+  index: -1

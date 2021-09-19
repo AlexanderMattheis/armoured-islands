@@ -1,0 +1,228 @@
+{
+com.badlogic.gdx.graphics.g2d.BitmapFont: {
+	navigator_32pt: {
+		file: navigator_32pt.fnt
+	}
+	navigator_32pt_shadowed_beveled: {
+		file: navigator_32pt_shadowed_beveled.fnt
+	}
+}
+com.badlogic.gdx.graphics.Color: {
+	RGBA_102_102_102_255: {
+		r: 0.4
+		g: 0.4
+		b: 0.4
+		a: 1
+	}
+	RGBA_180_180_180_255: {
+		r: 0.7058824
+		g: 0.7058824
+		b: 0.7058824
+		a: 1
+	}
+	RGBA_211_35_46_255: {
+		r: 0.827451
+		g: 0.13725491
+		b: 0.18039216
+		a: 1
+	}
+	RGBA_222_118_126_255: {
+		r: 0.87333333
+		g: 0.46286675
+		b: 0.49558505
+		a: 1
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Button$ButtonStyle: {
+	exit-button: {
+		up: exit-button
+		down: exit-button_pressed
+		over: exit-button_highlighted
+		disabled: exit-button_disabled
+	}
+	scrollbar-button_vertical_up: {
+		up: scrollbar-button
+		down: scrollbar-button_pressed
+		over: scrollbar-button_highlighted
+		disabled: scrollbar-button_disabled
+	}
+	scrollbar-button_vertical_down: {
+		up: scrollbar-button_down
+		down: scrollbar-button_pressed_down
+		over: scrollbar-button_highlighted_down
+		disabled: scrollbar-button_disabled_down
+	}
+	number-input-button_up: {
+		up: number-input-button
+		down: number-input-button_pressed
+		over: number-input-button_highlighted
+		disabled: number-input-button_disabled
+	}
+	number-input-button_down: {
+		up: number-input-button_down
+		down: number-input-button_pressed_down
+		over: number-input-button_highlighted_down
+		disabled: number-input-button_disabled_down
+	}
+	pin-button: {
+		up: pin
+		over: pin_activated
+		checked: pin_activated
+	}
+	icon-button_copy: {
+		up: copy
+		over: copy_highlighted
+		disabled: copy_disabled
+	}
+	icon-button_cut: {
+		up: cut
+		over: cut_highlighted
+		disabled: cut_disabled
+	}
+	icon-button_exit: {
+		up: exit
+		over: exit_highlighted
+	}
+	icon-button_history-direction_left: {
+		up: history-direction
+		over: history-direction_highlighted
+		disabled: history-direction_disabled
+	}
+	icon-button_history-direction_right: {
+		up: history-direction_right
+		over: history-direction_highlighted_right
+		disabled: history-direction_disabled_right
+	}
+	icon-button_paste: {
+		up: paste
+		over: paste_highlighted
+		disabled: paste_disabled
+	}
+	icon-button_save: {
+		up: save
+		over: save_highlighted
+		disabled: save_disabled
+	}
+	icon-button_select: {
+		up: select
+		over: select_highlighted
+		disabled: select_disabled
+	}
+	game-logo: {
+		up: game-logo
+	}
+	company-logo: {
+		up: company-logo
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.ImageButton$ImageButtonStyle: {
+	file-button: {
+		up: file-button
+		down: file-button_pressed
+		over: file-button_highlighted
+		checked: file-button_activated
+		checkedOver: file-button_activated_highlighted
+		disabled: file-button_disabled
+	}
+	rotation-button: {
+		imageUp: rotate
+		imageDown: rotate_pressed
+		imageOver: rotate_highlighted
+		imageDisabled: rotate_disabled
+		up: round_image-button
+		over: round_image-button_highlighted
+		disabled: round_image-button
+	}
+	mirror-button: {
+		imageUp: mirror
+		imageDown: mirror_pressed
+		imageOver: mirror_highlighted
+		imageDisabled: mirror_disabled
+		up: round_image-button
+		over: round_image-button_highlighted
+		disabled: round_image-button
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.ImageTextButton$ImageTextButtonStyle: {
+	folder-button: {
+		font: navigator_32pt_shadowed_beveled
+		up: folder-button
+		down: folder-button_pressed
+		over: folder-button_highlighted
+		checked: folder-button_activated
+		checkedOver: folder-button_activated_highlighted
+		disabled: folder-button_disabled
+	}
+	menu-file-button: {
+		font: navigator_32pt_shadowed_beveled
+		up: menu-file-button
+		down: menu-file-button_pressed
+		over: menu-file-button_highlighted
+		checked: menu-file-button_activated
+		checkedOver: menu-file-button_activated_highlighted
+		disabled: menu-file-button_disabled
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle: {
+	default: {
+		font: navigator_32pt_shadowed_beveled
+		fontColor: RGBA_211_35_46_255
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.ProgressBar$ProgressBarStyle: {
+	folder-button_progress-bar: {
+		background: progress-bar_empty
+		knobAfter: progress-bar_full
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.ScrollPane$ScrollPaneStyle: {
+	default: {
+		corner: corner
+		vScrollKnob: knob
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle: {
+	button: {
+		font: navigator_32pt_shadowed_beveled
+		up: button
+		down: button_pressed
+		over: button_highlighted
+		disabled: button_disabled
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.TextField$TextFieldStyle: {
+	input-field: {
+		font: navigator_32pt
+		fontColor: RGBA_211_35_46_255
+		disabledFontColor: RGBA_222_118_126_255
+		background: input-field
+		focusedBackground: input-field_highlighted
+		disabledBackground: input-field_disabled
+		cursor: cursor
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.TextTooltip$TextTooltipStyle: {
+	default: {
+		label: default
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Window$WindowStyle: {
+	dialog-panel: {
+		background: dialog
+		titleFont: navigator_32pt_shadowed_beveled
+		titleFontColor: RGBA_211_35_46_255
+	}
+	editor-hud-panel: {
+		background: editor_hud
+		titleFont: navigator_32pt_shadowed_beveled
+	}
+	two-button-panel: {
+		background: two_button_panel
+		titleFont: navigator_32pt_shadowed_beveled
+	}
+	horizontal-panel: {
+		background: horizontal_panel
+		titleFont: navigator_32pt_shadowed_beveled
+	}
+}
+}
